@@ -56,7 +56,7 @@ class Usage(Exception):
         self.msg = err
 
 def usage():
-    print "Usage: check_gmailunread.py -u email_user -p email_password [-w warn_unread] [-c crit_unread]"
+    print "Usage: check_gmailunread.py -u email_user -p email_password -w warn_unread -c crit_unread"
     print "       check_gmailunread.py -h for detailed help"
     print "       check_gmailunread.py -V for version information"
 
@@ -72,8 +72,10 @@ def detailedUsage():
     print "     Print version information then exit."
     print "  -u gmail_user"
     print "     User name of the gmail account."
+    print "     For google enterprise accounts use the full email address:"
+    print "     eg, your.email@yourcompany.com"
     print "  -p gmail_password "
-    print "     Port number of OmegaFaregate server node."
+    print "     Password of the gmail account."
     print "  -w warn_count" 
     print "     Warning threshold count for unread emails."
     print "  -c crit_count"
