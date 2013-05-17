@@ -138,7 +138,7 @@ elif unreadCRITICAL=="":
 # open an SSL imap4 connection to gmail, fail if unsuccessful
 try:
     # Open imap4 conection to imap.gmail.com.
-	gmailconnection = imaplib.IMAP4_SSL('imap.gmail.com','993')
+	gmailconnection = imaplib.IMAP4_SSL('imap.gmail.com',993)
 
 except Exception:
     print "UNKNOWN: error connecting to imap.gmail.com on tcp port 993"
