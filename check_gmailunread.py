@@ -2,7 +2,7 @@
 import imaplib,getopt,sys
 
 #
-#    Copyright 2012 Peter Dyson <peter.dyson@geekpete.com>
+#    Copyright 2012 Peter Dyson <pete@geekpete.com>
 #    https://github.com/geekpete/nagiosplugins/ 
 #
 #    Licensed under the GNU General Public License Version 3
